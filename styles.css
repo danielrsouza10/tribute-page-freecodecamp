@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    background-color: rgb(237, 237, 237);
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+h1, header>p{
+    margin-top: 30px;
+  text-align: center;
+}
+  
+img{
+     display: block; 
+     margin: 25px auto;
+  }
+main{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}      
+
+#img-div{
+  
+  background-color: white;
+  margin: 20px;
+  padding: 50px;
+}
+
+#image{
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+#img-caption{
+  text-align: center;
+  background-color: white;
+  margin-top: 15;
+  margin-bottom: 20;
+
+}
+
+#tribute-info{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+}
+
+li{
+  margin-bottom: 10px;
+}  
+
+p>q{
+    font-style: italic;
+    margin: 30 10 30 0;
+}
